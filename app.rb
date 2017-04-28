@@ -2,7 +2,7 @@ require 'sinatra/base'
 require './lib/game'
 require './lib/player'
 
-class Battle < Sinatra::Application
+class Battle < Sinatra::Base 
 
   enable :sessions
 
